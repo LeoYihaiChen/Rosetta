@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/yihaichen/Desktop/mycomputer/code/code/c_cpp",
-      "program": "/Users/yihaichen/Desktop/mycomputer/code/code/c_cpp/build/Debug/outDebug"
+      "cwd": "/Users/yihaichen/Desktop/mycomputer/code/code/Rosetta/Pi",
+      "program": "/Users/yihaichen/Desktop/mycomputer/code/code/Rosetta/Pi/build/Debug/outDebug"
     }
   ]
 }
