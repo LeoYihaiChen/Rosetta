@@ -1,3 +1,6 @@
-clean#!/bin/bash
+clear
 
-printf "%s\n" *.py | xargs -n1 python3.12
+for file in *.py; do
+    python3.12 "$file"
+done
+
