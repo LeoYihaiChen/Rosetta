@@ -22,7 +22,7 @@ class TextFile:
             file.write(content)
 
     def delete_txt(self):
-        os.remoTextFilee(self.filename)
+        os.remove(self.filename)
 
     def rename_txt(self, new_filename):
         os.rename(self.filename, new_filename)
