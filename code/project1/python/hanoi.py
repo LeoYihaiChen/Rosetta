@@ -50,7 +50,7 @@ def hanoi(source: HanoiStack, target: HanoiStack, staging: HanoiStack, N: int, f
 def play_hanoi(N: int):
     # Create a list which contains N numbers
     num_list = [i+1 for i in range(N)]
-    num_list.reverse()
+    num_list.reverse ()
 
     A = HanoiStack("A", num_list)
     B = HanoiStack("B", [])
@@ -66,4 +66,4 @@ def play_hanoi(N: int):
 
 
 if __name__ == "__main__":
-    play_hanoi(100)
+    play_hanoi(1  0)
