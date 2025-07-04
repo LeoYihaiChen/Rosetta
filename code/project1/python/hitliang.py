@@ -11,4 +11,5 @@ while True:
         if event.type in (QUIT,KEYDOWN):
             sys.exit()
     screen.fill(blue)
-    screen.blit
+    screen.blit(textImage,(100,100))
+    pygame.display.update()
